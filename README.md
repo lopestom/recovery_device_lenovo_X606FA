@@ -10,6 +10,7 @@ Build with minimal Omni TWRP for **Android 9.0**.
 
 ### About Device
 Specs: [Lenovo Tab M10 Plus TB-X606F](https://4pda.to/devdb/lenovo_tab_m10_plus_tb_x606f)
+
 [Lenovo Tab M10 FHD Plus Wi-Fi](https://www.devicespecifications.com/en/model/a7da5341)
 
 ### Tester
