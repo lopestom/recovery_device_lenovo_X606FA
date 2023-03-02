@@ -1,6 +1,6 @@
 # TWRP device tree for Lenovo Tab M10 Plus TB-X606F / Lenovo Tab M10 FHD Plus Wi-Fi
-Lenovo Tab M10 Plus TB-X606X - Tablet - MT6765 - A9
-   - Files used from TB-X606V_S100171_200828_BMP firmware.
+   - Lenovo Tab M10 Plus TB-X606X - Tablet - MediaTek Helio P22T -- MT6765 - A9
+     - Files used from TB-X606V_S100171_200828_BMP firmware.
 
 ## Release info
 forked original repository from [Yahoo-Mike](https://github.com/Yahoo-Mike/recovery_device_lenovo_X606FA).
