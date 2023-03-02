@@ -18,19 +18,23 @@
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Release name
-PRODUCT_RELEASE_NAME := X606FA
+PRODUCT_RELEASE_NAME := X606V
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
+# Configure core_64_bit.mk
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common_tablet.mk)
+# $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier.
-PRODUCT_NAME := omni_X606FA
-PRODUCT_DEVICE := X606FA
+PRODUCT_NAME := omni_X606V
+PRODUCT_DEVICE := X606V
 PRODUCT_BRAND := Lenovo
-PRODUCT_MODEL := Lenovo TB-X606FA
+PRODUCT_MODEL := Lenovo TB-X606V
 PRODUCT_MANUFACTURER := LENOVO
 
 
