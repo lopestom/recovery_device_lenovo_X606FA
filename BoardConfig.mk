@@ -81,6 +81,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 TW_INCLUDE_CRYPTO := true
 PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
+PLATFORM_VERSION := 16.1.0
 
 # System as root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
@@ -94,9 +95,9 @@ RECOVERY_TOUCHSCREEN_FLIP_Y := true
 TW_SCREEN_BLANK_ON_BOOT := true
 
 # Resolution
-TW_THEME := portrait_hdpi
-DEVICE_SCREEN_WIDTH := 720
-DEVICE_SCREEN_HEIGHT := 1520
+DEVICE_RESOLUTION := 1200x1920
+DEVICE_SCREEN_WIDTH := 1200
+DEVICE_SCREEN_HEIGHT := 1920
 
 # Recovery
 BOARD_HAS_NO_SELECT_BUTTON := true
@@ -115,4 +116,4 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_OVERRIDE_SYSTEM_PROPS := \ "ro.build.product;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental;ro.product.device=ro.product.system.device;ro.product.model=ro.product.system.model;ro.product.name=ro.product.system.name"
 
 
-TW_DEVICE_VERSION := -2 by lopestom
+TW_DEVICE_VERSION := Lenovo TB-X606V_S100171_200828_BMP by lopestom
