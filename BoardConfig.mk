@@ -76,6 +76,7 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 
 # treble
 TARGET_COPY_OUT_VENDOR := vendor
+TARGET_COPY_OUT_PRODUCT := product
 
 # decryption
 TW_INCLUDE_CRYPTO := true
@@ -115,5 +116,5 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 
 TW_OVERRIDE_SYSTEM_PROPS := \ "ro.build.product;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental;ro.product.device=ro.product.system.device;ro.product.model=ro.product.system.model;ro.product.name=ro.product.system.name"
 
-
+BOARD_ROOT_EXTRA_FOLDERS += lenovocust
 TW_DEVICE_VERSION := Lenovo TB-X606V_S100171_200828_BMP by lopestom
