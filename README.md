@@ -1,40 +1,24 @@
-# TWRP device tree for Lenovo Smart Tab M10 FHD Plus (TB-X606FA/FX)
+# TWRP device tree for Lenovo Tab M10 Plus TB-X606F / Lenovo Tab M10 FHD Plus Wi-Fi
+Lenovo Tab M10 Plus TB-X606X - Tablet - MT6765 - A9
+   - Files used from TB-X606V_S100171_200828_BMP firmware.
 
 ## Release info
+forked original repository from [Yahoo-Mike](https://github.com/Yahoo-Mike/recovery_device_lenovo_X606FA).
 This is an unofficial build.  Install at your own risk.
 
-Build with minimal Omni TWRP for Android 10.0.
+Build with minimal Omni TWRP for **Android 9.0**.
 
 ### About Device
+Specs: [Lenovo Tab M10 Plus TB-X606F](https://4pda.to/devdb/lenovo_tab_m10_plus_tb_x606f)
+[Lenovo Tab M10 FHD Plus Wi-Fi](https://www.devicespecifications.com/en/model/a7da5341)
 
-![Lenovo Smart Tab M10 HD](https://download.lenovo.com/images/ProdImageSmart/amazon_alexa.jpg "Lenovo Smart Tab M10 FHD Plus (TB-X606FA)")
-
-Recovery Device Tree for Lenovo Smart Tab M10 FHD Plus wifi (TB-X606FA)
-=======================================================================
-Component   | Specs
--------:|:-------------------------
-Chipset| MediaTek Helio P22T
-CPU | ARM Cortex-A53, Octo-Core, 2.3 GHz
-GPU     | IMG PowerVR GE8320, 650 MHz
-Memory  | 2GB or 4GB (soldered)
-Shipped Android Version | 9.0 (Pie), upgrade to 10.0
-Storage | 32GB or 64GB eMMC
-MicroSD | Up to 256 GB
-Battery | 5000 mAh, Li-Po (non-removable)
-Display | 1920x1200 pixels, 10.3"
-Front Camera | 5.0 MP
-Rear Camera  | 8.0 MP
-Wifi | dual band, 802.11a/b/g/n/ac
-WLAN | 4G LTE   (TB-X606X only)
-Bluetooth | v5
-USB | USB-C (micro USB)
-Release Date | August 2020
-
+### Tester
+[jep_pavel from 4pda](https://4pda.to/forum/index.php?showuser=620082)
 
 ## To build
 ```
 . build/envsetup.sh
-lunch omni_X606FA-eng
+lunch omni_X606V-eng
 make clean 
 mka recoveryimage
 ```
