@@ -17,9 +17,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_X606FA.mk
+    $(LOCAL_DIR)/omni_X606V.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_X606FA-userdebug \
-    omni_X606FA-user \
-    omni_X606FA-eng
+    omni_X606V-eng \
+    omni_X606V-userdebug \
+    omni_X606V-user
+
