@@ -88,6 +88,9 @@ PLATFORM_VERSION := 16.1.0
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # display
 TW_THEME := landscape_hdpi
 TW_ROTATION := 90
