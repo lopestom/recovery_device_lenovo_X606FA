@@ -56,6 +56,21 @@ service keyinstall-1-0 /vendor/bin/hw/vendor.mediatek.hardware.keyinstall@1.0-se
     disabled
     seclabel u:r:recovery:s0
 
+service capi-2-0 /vendor/bin/hw/vendor.microtrust.hardware.capi@2.0-service
+    class hal
+    oneshot
+    user root
+    group root
+    disabled
+    seclabel u:r:recovery:s0
+
+service thh-2-0 /vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service
+    class late_start
+    user root
+    group root
+    disabled
+    seclabel u:r:recovery:s0
+
 # decryption process
 on property:hwservicemanager.ready=true
     start teei_daemon
