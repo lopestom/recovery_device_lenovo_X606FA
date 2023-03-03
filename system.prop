@@ -1,0 +1,53 @@
+#
+ro.product.brand=Lenovo
+ro.product.ota.model=Lenovo TB-X606V
+ro.product.sw.internal.version=TB-X606V_USR_S100171_2008280502_V5.196_BMP_ROW
+ro.product.manufacturer=LENOVO
+#ro.build.product=achilles6_row_call
+#ro.product.device=achilles6_row_call
+
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+persist.sys.usb.config=mtp,adb
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.isUsbOtgEnabled=true
+ro.sys.usb.mtp.whql.enable=0
+ro.sys.usb.storage.type=mtp
+#
+ro.sf.lcd_density=240
+ro.mount.fs=EXT4
+ro.mediatek.platform=MT6765
+ro.mediatek.version.branch=alps-mp-p0.mp1
+ro.mediatek.version.release=TB-X606V_USR_S100171_2008280502_V5.196_BMP_ROW
+ro.software.version=TB-X606V_RF01_200828
+ro.hardware.version=Lenovo TB-X606V
+ro.build.version.incremental=TB-X606V_USR_S100171_2008280502_V5.196_BMP_ROW
+ro.vendor.product.ota.model=Lenovo TB-X606V
+ro.lenovo.software.version=TB-X606V_RF01_200828
+ro.lenovo.fp.incremental=S100171_200828_BMP
+ro.lenovo.hardware.version=Lenovo TB-X606V
+ro.lenovo.series=Lenovo Tab M10 FHD Plus
+#
+ro.sf.hwrotation=0
+ro.vendor.mediatek.platform=MT6765
+ro.vendor.mtk_f2fs_enable=0
+ro.vendor.mtk_emmc_support=1
+ro.mtk_key_manager_support=1
+ro.vendor.mtk_tee_gp_support=1
+ro.vendor.mtk_microtrust_tee_support=1
+Build.BRAND=MTK
+ro.lenovo.region=row
+ro.lenovo.tablet=3gcall
+ro.crypto.volume.filenames_mode=aes-256-cts
+ro.lenovo.cpuinfo=P22T,8,2.3
+ro.lenovo.operator=open
+ro.lenovo.device=tablet
+ro.lenovo.sim=single
+ro.lenovo.platform=mtk
+ro.lenovo.signalbars=four
+ro.lenovo.bqb=pass
+ro.lenovo.cta=false
+ro.lenovo.videocall=false
+#
