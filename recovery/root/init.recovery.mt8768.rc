@@ -8,7 +8,7 @@ on init
     setprop crypto.ready 1
 
     mkdir /mnt/vendor/persist
-    mount ext4 /dev/block/by-name/persist /mnt/vendor/persist rw
+    mount ext4 /dev/block/platform/bootdevice/by-name/persist /mnt/vendor/persist rw
 
 on fs
     install_keyring
