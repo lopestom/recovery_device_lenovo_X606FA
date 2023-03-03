@@ -5,6 +5,10 @@ on init
 
     start servicemanager
     start hwservicemanager
+    setprop crypto.ready 1
+
+on fs
+    install_keyring
 
 # system services
 service hwservicemanager /system/bin/hwservicemanager
