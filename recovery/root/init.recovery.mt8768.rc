@@ -74,13 +74,19 @@ service thh-2-0 /vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service
 # decryption process
 on property:hwservicemanager.ready=true
     start teei_daemon
+    start keyinstall-1-0
+    #microtrust add start
+    start capi-2-0
+    #microtrust add end
     start vendor.keymaster-3-0
     start vendor.gatekeeper-1-0
+#    start keymaster_attestation-1-1
 
 on property:ro.crypto.state=unsupported
     stop vendor.gatekeeper-1-0
     stop vendor.keymaster-3-0
     stop teei_daemon
+    stop keyinstall-1-0
     stop servicemanager
     stop hwservicemanager
 
@@ -88,6 +94,7 @@ on property:ro.crypto.state=unencrypted
     stop vendor.gatekeeper-1-0
     stop vendor.keymaster-3-0
     stop teei_daemon
+    stop keyinstall-1-0
     stop servicemanager
     stop hwservicemanager
 
@@ -95,6 +102,7 @@ on property:twrp.decrypt.done=true
     stop vendor.gatekeeper-1-0
     stop vendor.keymaster-3-0
     stop teei_daemon
+    stop keyinstall-1-0
     stop servicemanager
     stop hwservicemanager
     
