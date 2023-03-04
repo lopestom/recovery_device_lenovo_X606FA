@@ -80,7 +80,7 @@ PLATFORM_VERSION := 127
 PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 
 # display
-TW_THEME := portrait_hdpi
+TW_THEME := landscape_hdpi
 TW_SCREEN_BLANK_ON_BOOT := true
 
 # Recovery
